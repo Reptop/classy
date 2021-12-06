@@ -1,21 +1,22 @@
-#include <iostream> 
+#include <iostream>
 #include <cstring>
 #include "media.h"
-using namespace std; 
 
+using namespace std;
 
-media::media() { 
-	//constructor
-} 
+Media::Media() {
 
-int* media::getYear(){ 
-	return &year;  
 }
 
-char* media::getTitle() {
-	return title; 
+//getters
+int* Media::getYear(){
+  return &year;
 }
 
-int* media::getType() {
+char* Media::getTitle(){
+  return title;
+}
+
+int Media::getType(){
   return 0;
 }

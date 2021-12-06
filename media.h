@@ -1,19 +1,19 @@
-#ifndef MEDIA_H 
-#define MEDIA_H 
+#ifndef MEDIA_H
+#define MEDIA_H
 
-#include <iostream> 
-#include <cstring> 
-using namespace std; 
+#include <iostream>
+#include <cstring>
 
-class media {
-	public:
-        	media(); //contructor 	
-		char* getTitle(); 
-		int* getYear(); 
-                virtual int getType(); 
-	private:	
-		char title[30]; 
-		int year;  
+using namespace std;
+
+class Media{
+ public:
+    Media(); //contructor 
+    char* getTitle();
+    int* getYear();
+    virtual int getType();
+ private:
+    char title[30];
+    int year;
 };
-
-#endif 
+#endif
