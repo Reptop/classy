@@ -1,4 +1,5 @@
 //Author: Raed K
+//Date: 12/5/21 
 //This code is for keeping a database of different media: video games, music and movies. 
 //The program uses a vector pointer, pointing to a parent class with various children 
 //
@@ -127,17 +128,15 @@ void add(vector<Media*> *list) {
       cin.get(music->getPublisher(), 30);
       cin.clear();
       cin.ignore(10000, '\n');
-      list->push_back(music);
       cout << "Input Year: " << endl;
       cin >> *music->getYear();
       cin.clear();
       cin.ignore(10000, '\n');
       list->push_back(music);
       cin.clear(); 
-
-         cout << "Media Added!" << endl; 
-
+      cout << "Media Added!" << endl; 
   }
+  
    if (strcmp(choice, "movie") == 0) {
      //add movie 
     Movie* movie = new Movie();
