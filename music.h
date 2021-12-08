@@ -1,4 +1,4 @@
-#ifndef MUSIC_H
+#ifndef MUSIC_H //header gaurd 
 #define MUSIC_H
 
 #include <iostream>
