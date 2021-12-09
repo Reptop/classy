@@ -10,6 +10,7 @@ Music::Music()
 
 }
 
+//getters for duration, artist, and publisher 
 char* Music::getArtist(){
   return artist;
 }
