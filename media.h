@@ -13,6 +13,7 @@ class Media{
     int* getYear();
     virtual int getType();
  private:
+    //title and year variables that will be passed down to children 
     char title[30];
     int year;
 };
