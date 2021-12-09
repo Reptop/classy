@@ -5,7 +5,7 @@
 using namespace std;
 
 Media::Media() {
-
+  //leaving this contructor function blank
 }
 
 //getters
