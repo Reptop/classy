@@ -9,7 +9,7 @@ Videogame::Videogame()
 {
 
 }
-//getters for publisher, rating, and type 
+//getters for publisher, rating, and type  
 char* Videogame::getPublisher(){
   return publisher;
 }
