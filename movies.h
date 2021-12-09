@@ -15,6 +15,7 @@ class Movie : public Media {
   int* getDuration();
   float* getRating();
  private:
+ //private variables regarding movies specfiically 
   char director[30];
   int duration;
   float rating;
