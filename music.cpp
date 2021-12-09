@@ -7,10 +7,10 @@ using namespace std;
 
 Music::Music()
 {
-
+  //contructer function, I could use this space, but I prefer not to 
 }
 
-//getters for duration, artist, and publisher 
+//getters for duration, artist, and publisher, and type 
 char* Music::getArtist(){
   return artist;
 }
